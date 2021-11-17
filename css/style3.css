@@ -47,4 +47,10 @@
     border-radius: 30px;
     border:2px solid #FF5C58;
     cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.btn-card:active{
+    color:#FF5C58;
+    background-color: #ffffff;
 }

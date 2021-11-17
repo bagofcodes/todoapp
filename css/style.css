@@ -7,8 +7,19 @@ body{
 
 /*Css for add button on top and back button on page 2*/
 
-.add-button{
+.btn-icontext{
     cursor: pointer;
+    padding: 0.5em 1.5em;
+    font-size: 1.2em;
+    background-color: #ffffff;
+    border:0px;
+    border-radius: 10px;
+    transition: 0.5s linear;
+}
+
+.btn-icontext:active{
+    transform: scale(0.9);
+
 }
 
 #plus-icon{
@@ -18,8 +29,8 @@ body{
 }
 
 .plus-button-text{
-    font-size: 1.2em;
     color: gray;
+    font-size: 1.1em;
 }
 
 
@@ -81,6 +92,10 @@ hr{
     font-weight: 200;
     color: #FF5C58;
     text-decoration: underline lightgray ;
+}
+
+.card1:active{
+    transform: scale(0.98);
 }
 
 /*Task List*/

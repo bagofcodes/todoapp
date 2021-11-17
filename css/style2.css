@@ -25,7 +25,8 @@
 /*Back button*/
 
 .back-button{
-    text-align: center;
+    margin-left: 40%;
+    margin-right: 38%;
 }
 
 /* Card Container and Card */
@@ -64,7 +65,12 @@
 .footer-icon{
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-end;
     align-self: flex-end;
-    margin-right: 5px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+}
+
+.btn-ic{
+    padding: 0px 0px;
 }
