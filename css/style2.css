@@ -23,14 +23,9 @@
 }
 
 /*Back button*/
-
-.back-button{
-    margin-left: 550px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
-    
+#back-button-div{
+    display: flex;
+    justify-content: center;
 }
 /* Card Container and Card */
 
