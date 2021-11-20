@@ -151,7 +151,12 @@ hr{
   }
   
   /* Add a color to the active/current link */
-  .navbar a.active {
-    background-color: #FF5C58;
+  
+  .navbar a:active {
     color: white;
+    transform: scale(0.95);
+  }
+  .navbar a.selected{
+      background-color: #FF5C58;
+      color: white;
   }
